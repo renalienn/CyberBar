@@ -1,0 +1,65 @@
+body {
+    font-family: "Jersey 10", sans-serif;
+    background-color: black;
+    color: #f3f3f4;
+
+}
+
+.navbar {
+    background-color: black;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #f5f6f9;
+    color: #ca0cb0;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-tittle {
+    font-family: "Jersey 10", sans-serif;
+}
+
+#sobre-o-restaurante #cardapio {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: #ca0cb0;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #f3f3f4;
+    color: #090808;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #ca0cb0;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+
